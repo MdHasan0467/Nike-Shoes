@@ -10,9 +10,15 @@
   color: #363958;
 }
 .card-body{
+  position: relative;
   transition: 0.5s all;
 }
 .card-body:hover{
   box-shadow: 14px 12px 24px 0px rgba(0,0,0,0.2);
   transform: translateY(-15px);
+}
+.badge{
+  position: absolute;
+  top: -2%;
+  right: 5%;
 }
