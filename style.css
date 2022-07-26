@@ -9,6 +9,9 @@
 .text-color-secondary{
   color: #363958;
 }
+.bg-color{
+  background: #FA804C;
+}
 .card-body{
   position: relative;
   transition: 0.5s all;
@@ -21,4 +24,10 @@
   position: absolute;
   top: -2%;
   right: 5%;
+}
+.nav-link:hover{
+  background: #ffe8de;
+}
+.feedback:hover{
+  background: #FA804C;
 }
