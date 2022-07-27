@@ -25,8 +25,18 @@
   top: -2%;
   right: 5%;
 }
+.card-body:hover span{
+  visibility: visible !important;
+}
+
+.formal-card:hover{
+  background: #FA804C;
+  color: #f1f3ff;
+}
+.formal-card:hover .formal-rate{
+  color: #f1f3ff;
+}
 .nav-link:hover{
-  background: #ffe8de;
 }
 .feedback:hover{
   background: #FA804C;
