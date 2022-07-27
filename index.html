@@ -36,10 +36,12 @@
     <!-- Start Navigation Section -->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto text-color-secondary">
-        <a class="nav-link active rounded-1 text-center" aria-current="page" href="#">Home</a>
+        <a class="nav-link active rounded-1 light-orange-bg-color text-cente me-2" aria-current="page" href="#">Home</a>
         <a class="nav-link rounded-1 text-center" href="#features">Features</a>
         <a class="nav-link rounded-1 text-center" href="#casusal">Casual</a>
         <a class="nav-link rounded-1 text-center" href="#formal">Formal</a>
+        <a class="nav-link rounded-1 text-center" href="#FAQ">FAQ</a>
+        <a class="nav-link rounded-1 text-center" href="#Search">Search</a>
         <a class="nav-link feedback p-2 bg-color text-white rounded-pill text-center" href="#">Feedback</a>
       </div>
     </div>
@@ -61,9 +63,9 @@
 
     </div>
 
-    <div class="banner-content w-50 m-auto ms-5">
+    <div class="banner-content w-40 m-auto ms-5">
       <h1 class="text-color-primery">Nike React <br>
-      <span class="text-color-secondary">Infinity Run 2</span></h1>
+      <span class="text-color-secondary ">Infinity Run 2</span></h1>
 
       <p class="text-color-secondary">Lorem Ipsum is simply dummy text of the printing 
 and typesetting industry.</p>
@@ -115,7 +117,7 @@ and typesetting industry.</p>
 
         <div class="col-lg-4 col-md-6 col-sm-12">
           
-          <div class="card-body border rounded-4 bg-primary">
+          <div class="card-body hot-selected  rounded-4 bg-primary">
             <!-- Start Badge -->
             <span class="badge p-2 text-bg-info border border-light rounded-circle text-white"> Hot
             <span class="visually-hidden">New alerts</span>
@@ -184,7 +186,7 @@ and typesetting industry.</p>
       <h1 class="mx-3 my-5 py-5 text-color-secondary" id="formal">Formal shoes</h1>
       <div class="row gy-5">
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card-body formal-card border rounded-4">
+          <div class="card-body formal-card rounded-4">
             <!-- Start Badge -->
             <span class="badge rounded-pill bg-primary invisible">
             New
@@ -197,13 +199,13 @@ and typesetting industry.</p>
              printing and typesetting industry.</p>
              <div class="d-flex justify-content-between">
               <h5 class="px-2 formal-rate text-color-primery">$234</h5>
-              <div class="btn bg-primary text-white px-3 mb-3 me-3 border-0"><i class="fa-solid fa-cart-shopping pe-1"></i> BUY NOW</div>
+              <div class="btn bg-primary formal-shoe-btn text-white px-3 mb-3 me-3 border-0"><i class="fa-solid fa-cart-shopping pe-1"></i> BUY NOW</div>
              </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card-body formal-card border rounded-4">
+          <div class="card-body formal-card rounded-4">
             <!-- Start Badge -->
             <span class="badge rounded-pill bg-primary invisible">
             New
@@ -216,13 +218,13 @@ and typesetting industry.</p>
              printing and typesetting industry.</p>
              <div class="d-flex justify-content-between">
               <h5 class="px-2 text-color-primery formal-rate">$234</h5>
-              <div class="btn bg-primary text-white px-3 mb-3 me-3 border-0"><i class="fa-solid fa-cart-shopping pe-1"></i> BUY NOW</div>
+              <div class="btn bg-primary formal-shoe-btn text-white px-3 mb-3 me-3 border-0"><i class="fa-solid fa-cart-shopping pe-1"></i> BUY NOW</div>
              </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card-body formal-card border rounded-4">
+          <div class="card-body formal-card rounded-4">
             <!-- Start Badge -->
             <span class=" badge rounded-pill bg-primary invisible">
             New
@@ -235,14 +237,17 @@ and typesetting industry.</p>
              printing and typesetting industry.</p>
              <div class="d-flex justify-content-between">
               <h5 class="px-2 text-color-primery formal-rate">$234</h5>
-              <div class="btn bg-primary text-white px-3 mb-3 me-3 border-0"><i class="fa-solid fa-cart-shopping pe-1"></i> BUY NOW</div>
+              <div class="btn bg-primary formal-shoe-btn text-white px-3 mb-3 me-3 border-0"><i class="fa-solid fa-cart-shopping pe-1"></i> BUY NOW</div>
              </div>
           </div>
         </div>
 
       </div>
     </div>
+
     <br> <br>
+
+
     <!-- Start Pagination Bar -->
     <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-end">
@@ -263,16 +268,23 @@ and typesetting industry.</p>
 
      
 
-     <hr class="container">
 
 
 
 
 
 
+
+
+
+
+
+
+
+     <hr class="container pt-5" id="features">
 
     <!-- Start Features Section -->
-    <section class="container mt-5" id="features">
+    <section class="container mt-5">
       <div class="row d-flex flex-lg-row flex-md-row flex-column-reverse">
         <div class="content col-lg-6 col-md-6 col-sm-12">
         <div class="row">
@@ -312,6 +324,158 @@ and typesetting industry.</p>
     <!-- End Features Section -->
 
 
+    <hr class="container mt-5" id="FAQ">
+
+
+
+
+
+
+    <!-- Start FAQ Section -->
+    <section class="container pt-5">
+      <h1 class="text-center">FAQ <i class="fa-solid fa-circle-question"></i></h1>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Quistion 01
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Quistion 02
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Quistion 03
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        Quistion 04
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        Quistion 05
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+        Quistion 06
+      </button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+    </section>
+        <!-- End FAQ Section -->
+
+
+
+
+        <hr class="container mt-5" id="Search">
+
+
+
+        <!-- Start Footer Section -->
+        <footer class="container mt-5">
+          <div class="row">
+            <div class="footer-manu col-lg-5 col-md-6 col-sm-12">
+            <div class="row g-4">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+            <h2 class="text-center fw-light">About Us</h2>
+            <div class="row g-2">
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <h2 class="text-center fw-light">Udtades</h2>
+            <div class="row g-2">
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <h2 class="text-center fw-light">Upcoming</h2>
+            <div class="row g-2">
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            <a class="col-12 text-center text-decoration-none text-black-50" href="#">Home</a>
+            </div>
+          </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="seaerch col-lg-5 col-md-6 col-sm-12 text-end py-2">
+            <h2>Subscribe to our newsletter</h2>
+            <p>Monthly digest of what's new and exciting from us.</p>
+
+            <nav class="navbar bg-light">
+                <div class="container-fluid d-flex justify-content-end">
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                </div>
+            </nav>
+
+            <div class="social-media">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-facebook-messenger"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+
+          </div>
+          </div>
+
+          <h6 class="fw-light mt-5 text-center ">© 2022 Company, Inc. All rights reserved by Ornil Hasan Riyad.</h6>
+
+        </footer>
+      <!-- End Footer Section -->
 
   <!-- bootstrap js link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

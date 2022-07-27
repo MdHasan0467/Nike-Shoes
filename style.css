@@ -9,15 +9,24 @@
 .text-color-secondary{
   color: #363958;
 }
+.two-bg-color{
+  background: linear-gradient(to left,#FA804C,#363958 );
+}
 .bg-color{
   background: #FA804C;
 }
 .card-body{
   position: relative;
   transition: 0.5s all;
+  outline: none;
+  border: none;
 }
 .card-body:hover{
   box-shadow: 14px 12px 24px 0px rgba(0,0,0,0.2);
+  transform: translateY(-15px);
+}
+.hot-selected:hover{
+  box-shadow: 14px 12px 14px 0px rgba(0, 7, 240, 0.4);
   transform: translateY(-15px);
 }
 .badge{
@@ -32,12 +41,32 @@
 .formal-card:hover{
   background: #FA804C;
   color: #f1f3ff;
+  box-shadow:14px 12px 14px 0px rgb(245, 197, 176);
 }
 .formal-card:hover .formal-rate{
   color: #f1f3ff;
 }
-.nav-link:hover{
+.formal-shoe-btn,.formal-rate{
+  transition: 0.5s ease-in-out;
 }
+.formal-card:hover .formal-shoe-btn{
+  background: #f1f3ff !important;
+  color: #363958 !important;
+}
+.light-orange-bg-color{
+  background: rgb(255, 234, 225);
+}
+.nav-link:hover{
+  background: #ffeae1;
+}
+
 .feedback:hover{
-  background: #FA804C;
+  background: #363958;
+}
+
+.fa-brands{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-right: 40px;
+  cursor: pointer;
 }
